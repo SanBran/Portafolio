@@ -36,11 +36,11 @@ function Projects() {
     <div className="flex flex-col gap-10 w-screen text-center lg:pb-40 sm:py-20">
       <h1 className={` ${montserrat.className} lg:text-2xl sm:text-lg text-indigo-700`}>PROJECTS</h1>
         <div className=" align-middle flex xl:flex-row sm:flex-col lg:gap-5 sm:gap-2 bg-white shadow-xl m-auto lg:p-5 sm:p-3 lg:w-8/12 sm:w-5/6 h-fit rounded-lg ">
-            <Link href='https://book-store-client-coral.vercel.app/' target='_blank bg-red-400' className='xl:w-3/5  sm:h-full sm:mb-4 rounded-lg '>
+            <Link href='https://book-store-client-coral.vercel.app/' target='_blank' className='xl:w-3/5  sm:h-full sm:mb-4 rounded-lg '>
             <Image src={bookstore} alt='bookstore' className=' rounded-lg  '/>
             </Link>
             <div className=' text-center xl:w-2/5 xl:px-8 xl:py-5 ' >
-              <Link href='https://book-store-client-coral.vercel.app/'>
+              <Link href='https://book-store-client-coral.vercel.app/' target='_blank'>
             <h1 className={` ${montserrat.className} xl:text-2xl sm:text-lg xl:mb-5 text-indigo-700`}>BookStore</h1>
               </Link>
             <p className=' text-slate-500 lg:text-lg sm:text-sm'>An e-commerce focused on e-books, BookStore is designed to provide a simple and intuitive experience for those who 
@@ -70,11 +70,11 @@ function Projects() {
         </div>
 
         <div className=" align-middle flex xl:flex-row-reverse sm:flex-col lg:gap-5 sm:gap-2 bg-white shadow-xl m-auto lg:p-5 sm:p-3 lg:w-8/12 sm:w-5/6 h-fit rounded-lg ">
-        <Link href='https://countries-client-rho.vercel.app/' target='_blank bg-red-400' className='xl:w-3/5  sm:h-full sm:mb-4 rounded-lg '>
+        <Link href='https://countries-client-rho.vercel.app/' target='_blank' className='xl:w-3/5  sm:h-full sm:mb-4 rounded-lg '>
             <Image src={countries} alt='bookstore' className=' rounded-lg  '/>
             </Link>
             <div className=' text-center xl:w-2/5 xl:px-8 xl:py-5 ' >
-              <Link href='https://countries-client-rho.vercel.app/'>
+              <Link href='https://countries-client-rho.vercel.app/' target='_blank'>
             <h1 className={` ${montserrat.className} xl:text-2xl sm:text-lg xl:mb-5 text-indigo-700`}>Countries</h1>
               </Link>
             <p className=' text-slate-500 lg:text-lg sm:text-sm'>Contries is a individual academic project that consists of a website wich provides
@@ -108,11 +108,11 @@ function Projects() {
             
         </div>
         <div className=" align-middle flex xl:flex-row sm:flex-col lg:gap-5 sm:gap-2 bg-white shadow-xl m-auto lg:p-5 sm:p-3 lg:w-8/12 sm:w-5/6 h-fit rounded-lg ">
-            <Link href='https://github.com/SanBran/foods-front' target='_blank bg-red-400' className='xl:w-3/5  sm:h-full sm:mb-4 rounded-lg '>
+            <Link href='https://github.com/SanBran/foods-front' target='_blank' className='xl:w-3/5  sm:h-full sm:mb-4 rounded-lg '>
             <Image src={foods} alt='bookstore' className=' rounded-lg  '/>
             </Link>
             <div className=' text-center xl:w-2/5 xl:px-8 xl:py-5 ' >
-            <Link href='https://github.com/SanBran/foods-front'>
+            <Link href='https://github.com/SanBran/foods-front' target='_blank'>
             <h1 className={` ${montserrat.className} xl:text-2xl sm:text-lg xl:mb-5 text-indigo-700`}>FOOD</h1>
             </Link>
             <p className=' text-slate-500 lg:text-lg sm:text-sm'>A website designed to store and create cooking recipes. On it, you can
