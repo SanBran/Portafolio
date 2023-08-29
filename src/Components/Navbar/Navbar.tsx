@@ -9,10 +9,11 @@ const montserrat = Montserrat({
   interface PropsScroll {
     scrollToAbout: () => void;
     scrollToProjects: () => void;
+    scrollToContact: () => void;
 
   }
 
-const NavBar = ({scrollToAbout, scrollToProjects}: PropsScroll) => {
+const NavBar = ({scrollToAbout, scrollToProjects, scrollToContact}: PropsScroll) => {
 
     const scrollToTop = () => {
         window.scrollTo({
@@ -28,7 +29,7 @@ const NavBar = ({scrollToAbout, scrollToProjects}: PropsScroll) => {
             <div className='flex gap-5'>
 			<button onClick={scrollToAbout}>About</button>
 			<button onClick={scrollToProjects}>Projects</button>
-			<button>Contact</button>
+			<button onClick={scrollToContact}>Contact</button>
 			</div>
             
 					

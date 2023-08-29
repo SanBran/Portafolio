@@ -7,6 +7,8 @@ import Image from 'next/image'
 import html from '@/sources/icons8-html-5-144.png'
 import css from '@/sources/icons8-css-144.png'
 import js from '@/sources/icons8-javascript-144.png'
+import ts from '@/sources/icons8-typescript-144.png'
+import next from '@/sources/nextBlack.png'
 import node from '@/sources/node.png'
 import figma from '@/sources/figma.png'
 import redux from '@/sources/redux.png'
@@ -17,6 +19,7 @@ import sequelize from '@/sources/sequelize.png'
 import postgres from '@/sources/postgres.png'
 import bookstore from '@/sources/BookStore.png'
 import countries from '@/sources/countries.png'
+import foods from '@/sources/FOOD.png'
 
 const montserrat = Montserrat({
     subsets: ["latin"],
@@ -70,7 +73,7 @@ function Projects() {
             </Link>
             <div className=' text-center xl:w-2/5 xl:px-8 xl:py-5 ' >
             <h1 className={` ${montserrat.className} xl:text-2xl sm:text-lg xl:mb-5 text-indigo-700`}>Countries</h1>
-            <p className=' text-slate-500 md:text-sm'>Contries is a individual academic project that cosist of a website wich provides
+            <p className=' text-slate-500 md:text-sm'>Contries is a individual academic project that consists of a website wich provides
             information about countries of the world. You can perform searches, apply filters and sorting, and also create
             tourist activities and associate with various countries, an then filter the countries based on these same activities. </p>
             <div className='flex justify-around px-10 mt-5' >
@@ -101,18 +104,18 @@ function Projects() {
             
         </div>
         <div className=" align-middle flex xl:flex-row sm:flex-col lg:gap-5 sm:gap-2 bg-white shadow-xl m-auto lg:p-5 sm:p-3 lg:w-8/12 sm:w-5/6 h-fit rounded-lg ">
-            <Link href='https://book-store-client-coral.vercel.app/' target='_blank bg-red-400' className='xl:w-3/5  sm:h-full sm:mb-4 rounded-lg '>
-            <Image src={bookstore} alt='bookstore' className=' rounded-lg  '/>
+            <Link href='https://github.com/SanBran/foods-front' target='_blank bg-red-400' className='xl:w-3/5  sm:h-full sm:mb-4 rounded-lg '>
+            <Image src={foods} alt='bookstore' className=' rounded-lg  '/>
             </Link>
             <div className=' text-center xl:w-2/5 xl:px-8 xl:py-5 ' >
             <h1 className={` ${montserrat.className} xl:text-2xl sm:text-lg xl:mb-5 text-indigo-700`}>FOOD</h1>
-            <p className=' text-slate-500 md:text-sm'>A website designed to store an create cooking recipes. On it, you can
+            <p className=' text-slate-500 md:text-sm'>A website designed to store and create cooking recipes. On it, you can
             sign up, search for recipes, filter and sort them, as well as create your own recipes and publish them, </p>
             <div className='flex justify-around px-10 mt-5' >
               <Image src={html} alt="html" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
               <Image src={css} alt="css" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
-              <Image src={js} alt="js" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
-              <Image src={rct} alt="react" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+              <Image src={ts} alt="js" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+              <Image src={next} alt="react" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
               <Image src={redux} alt="redux" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
             </div>
             <div className='flex justify-around px-10 mt-1' >
@@ -123,21 +126,16 @@ function Projects() {
               <Image src={postgres} alt="postgres" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
             </div>
             <div className='flex justify-center mt-8 mb-5 gap-5'>
-            <Link href='https://github.com/SanBran/BookStore-Client' target="_blank" className='hover:scale-110 flex gap-1 text-lg'>
+            <Link href='https://github.com/SanBran/foods-front' target="_blank" className='hover:scale-110 flex gap-1 text-lg'>
               Code
               <BiLogoGithub className= ' text-3xl' /> 
               </Link>
-            <Link href='https://book-store-client-coral.vercel.app/' target="_blank" className='hover:scale-110 flex gap-1 text-lg'>
-              Demo
-              <AiOutlineGlobal className= ' text-3xl' /> 
-              </Link>
+            
             </div>
             </div>
             
         </div>
-        <div className="align-middle flex lg:flex-row sm:flex-col lg:gap-5 sm:gap-2 bg-white shadow-xl m-auto lg:p-5 sm:p-3 lg:w-8/12 sm:w-5/6 h-fit rounded-lg ">
-        holi
-        </div>
+      
     </div>
   )
 }

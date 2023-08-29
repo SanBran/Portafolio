@@ -16,6 +16,7 @@ import tailwind from '@/sources/tailwind.png'
 import NavBar from '@/Components/Navbar/Navbar';
 import About from '@/Components/About/About';
 import Projects from '@/Components/Projects/Projects';
+import Contact from '@/Components/Contact/Contact';
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -53,22 +54,23 @@ export default function Home() {
       });
     }
   };
-  // const scrollToContact = () => {
-  //   if (scrollContactRef.current) {
-  //     setSelect("Contact")
-  //     scrollContactRef.current.scrollIntoView({
-  //       behavior: 'smooth', // Opciones: 'auto', 'smooth'
-  //       block: 'start',     // Opciones: 'start', 'center', 'end', 'nearest'
-  //     });
-  //   }
-  // };
+  const scrollToContact = () => {
+    if (scrollContactRef.current) {
+      setSelect("Contact")
+      scrollContactRef.current.scrollIntoView({
+        behavior: 'smooth', // Opciones: 'auto', 'smooth'
+        block: 'start',     // Opciones: 'start', 'center', 'end', 'nearest'
+      });
+    }
+  };
 
 
   return (
-    <main className="flex flex-col items-center">
+    <main className="flex flex-col ">
       <NavBar
       scrollToAbout={scrollToAbout}
-      scrollToProjects={scrollToProjects}/>
+      scrollToProjects={scrollToProjects}
+      scrollToContact={scrollToContact}/>
       <div className='relative flex flex-col items-center justify-center z-10 h-screen w-screen '>
       <Image
               src={title}
@@ -103,6 +105,10 @@ export default function Home() {
       
       <div ref={scrollProjectsRef} >
         <Projects/>
+      </div>
+      
+      <div ref={scrollContactRef} >
+        <Contact/>
       </div>
       
       
