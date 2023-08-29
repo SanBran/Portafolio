@@ -18,7 +18,7 @@ function Contact() {
     <div className=" bg-[#FAFAFA] lg:px-80 lg:py-20 sm:px-10 sm:py-20">
         <h1 className={` ${montserrat.className} lg:text-2xl sm:text-lg text-indigo-700`}>CONTACT</h1>
         <br />
-        <h1 className={` ${montserrat.className} lg:text-4xl sm:text-lg text-black`}>Let's work together!👇</h1>
+        <h1 className={` ${montserrat.className} lg:text-4xl sm:text-lg text-black`}>Let&apos;'&apos;s work together!👇</h1>
         <br />
         <div className="flex flex-col gap-2">
             
