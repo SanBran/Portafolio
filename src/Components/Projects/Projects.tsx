@@ -41,7 +41,7 @@ function Projects() {
             </Link>
             <div className=' text-center xl:w-2/5 xl:px-8 xl:py-5 ' >
             <h1 className={` ${montserrat.className} xl:text-2xl sm:text-lg xl:mb-5 text-indigo-700`}>BookStore</h1>
-            <p className=' text-slate-500 md:text-sm'>An e-commerce focused on e-books, BookStore is designed to provide a simple and intuitive experience for those who 
+            <p className=' text-slate-500 lg:text-lg sm:text-sm'>An e-commerce focused on e-books, BookStore is designed to provide a simple and intuitive experience for those who 
             enjoy reading books directly on their device. On this platform, you can sign up, perform dynamic book searches, 
             create a wishlist, purchase, and download your favorite e-books. </p>
             <div className='flex justify-around px-10 mt-5' >
@@ -73,7 +73,7 @@ function Projects() {
             </Link>
             <div className=' text-center xl:w-2/5 xl:px-8 xl:py-5 ' >
             <h1 className={` ${montserrat.className} xl:text-2xl sm:text-lg xl:mb-5 text-indigo-700`}>Countries</h1>
-            <p className=' text-slate-500 md:text-sm'>Contries is a individual academic project that consists of a website wich provides
+            <p className=' text-slate-500 lg:text-lg sm:text-sm'>Contries is a individual academic project that consists of a website wich provides
             information about countries of the world. You can perform searches, apply filters and sorting, and also create
             tourist activities and associate with various countries, an then filter the countries based on these same activities. </p>
             <div className='flex justify-around px-10 mt-5' >
@@ -109,7 +109,7 @@ function Projects() {
             </Link>
             <div className=' text-center xl:w-2/5 xl:px-8 xl:py-5 ' >
             <h1 className={` ${montserrat.className} xl:text-2xl sm:text-lg xl:mb-5 text-indigo-700`}>FOOD</h1>
-            <p className=' text-slate-500 md:text-sm'>A website designed to store and create cooking recipes. On it, you can
+            <p className=' text-slate-500 lg:text-lg sm:text-sm'>A website designed to store and create cooking recipes. On it, you can
             sign up, search for recipes, filter and sort them, as well as create your own recipes and publish them, </p>
             <div className='flex justify-around px-10 mt-5' >
               <Image src={html} alt="html" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
