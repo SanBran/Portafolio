@@ -19,7 +19,7 @@ function Contact() {
         <h1 className={` ${montserrat.className} lg:text-2xl sm:text-lg text-indigo-700`}>CONTACT</h1>
         <br />
         // eslint-disable-line no-alert
-        <h1 className={` ${montserrat.className} lg:text-4xl sm:text-lg text-black`}>Let's work together!👇</h1>
+        <h1 className={` ${montserrat.className} lg:text-4xl sm:text-lg text-black`}>{"Let's work together!👇"}</h1>
         <br />
         <div className="flex flex-col gap-2">
             
