@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build --watch",
+    "build": "next build",
     "watch": "next build --watch",
     "start": "next start",
     "lint": "next lint"
