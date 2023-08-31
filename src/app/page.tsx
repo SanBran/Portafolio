@@ -6,27 +6,11 @@ import { Montserrat } from "next/font/google";
 import { BiLogoGithub, BiLogoLinkedin } from 'react-icons/bi';
 import background from '@/sources/giphy1.gif'
 import title from '@/sources/titulo.png'
-import html from '@/sources/icons8-html-5-144.png'
-import css from '@/sources/icons8-css-144.png'
-import js from '@/sources/icons8-javascript-144.png'
-import ts from '@/sources/icons8-typescript-144.png'
-import rct from '@/sources/icons8-react-native-256.png'
-import next from '@/sources/next.png'
-import tailwind from '@/sources/tailwind.png'
 import NavBar from '@/Components/Navbar/Navbar';
 import About from '@/Components/About/About';
 import Projects from '@/Components/Projects/Projects';
 import Contact from '@/Components/Contact/Contact';
 
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  weight: ["700"]
-})
-
-const montserratRegular = Montserrat({
-  subsets: ["latin"],
-  weight: ["400"]
-})
 
 export default function Home() {
 

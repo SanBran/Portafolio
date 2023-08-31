@@ -20,6 +20,7 @@ import postgres from '@/sources/postgres.png'
 import bookstore from '@/sources/BookStore.png'
 import countries from '@/sources/countries.png'
 import foods from '@/sources/FOOD.png'
+import rnm from '@/sources/RnM.png'
 
 const montserrat = Montserrat({
     subsets: ["latin"],
@@ -70,6 +71,77 @@ function Projects() {
         </div>
 
         <div className=" align-middle flex xl:flex-row-reverse sm:flex-col lg:gap-5 sm:gap-2 bg-white shadow-xl m-auto lg:p-5 sm:p-3 lg:w-8/12 sm:w-5/6 h-fit rounded-lg ">
+        <Link href='https://rickandmorty-sanbran.vercel.app/about' target='_blank' className='xl:w-3/5  sm:h-full sm:mb-4 rounded-lg '>
+            <Image src={rnm} alt='rnm' className=' rounded-lg  '/>
+            </Link>
+            <div className=' text-center xl:w-2/5 xl:px-8 xl:py-5 ' >
+              <Link href='https://rickandmorty-sanbran.vercel.app/about' target='_blank'>
+            <h1 className={` ${montserrat.className} xl:text-2xl sm:text-lg xl:mb-5 text-indigo-700`}>Rick And Morty</h1>
+              </Link>
+            <p className=' text-slate-500 lg:text-lg sm:text-sm'>This project was developed as an academic integrator project during my time at Henry Bootcamp. Here, you can search for characters from the series by name. Additionally, you have the option to create an account, allowing you to select your favorite characters and save them in your Favorites section. </p>
+            <div className='flex justify-around px-10 mt-5' >
+              <Image src={html} alt="html" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+              <Image src={css} alt="css" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+              <Image src={js} alt="js" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+              <Image src={rct} alt="react" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+              <Image src={redux} alt="redux" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+            </div>
+            <div className='flex justify-around px-10 mt-1' >
+              <Image src={node} alt="node" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+              <Image src={corel} alt="corel" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+              <Image src={express} alt="express" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+              <Image src={sequelize} alt="sequielize" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+              <Image src={postgres} alt="postgres" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+            </div>
+            <div className='flex justify-center mt-8 mb-5 gap-5'>
+            <Link href='https://github.com/SanBran/rickandmorty' target="_blank" className='hover:scale-110 flex gap-1 text-lg'>
+              Code
+              <BiLogoGithub className= ' text-3xl' /> 
+              </Link>
+            <Link href='https://rickandmorty-sanbran.vercel.app/about' target="_blank" className='hover:scale-110 flex gap-1 text-lg'>
+              Demo
+              <AiOutlineGlobal className= ' text-3xl' /> 
+              </Link>
+            </div>
+            </div>
+            
+        </div>
+
+        <div className=" align-middle flex xl:flex-row sm:flex-col lg:gap-5 sm:gap-2 bg-white shadow-xl m-auto lg:p-5 sm:p-3 lg:w-8/12 sm:w-5/6 h-fit rounded-lg ">
+            <Link href='https://github.com/SanBran/foods-front' target='_blank' className='xl:w-3/5  sm:h-full sm:mb-4 rounded-lg '>
+            <Image src={foods} alt='bookstore' className=' rounded-lg  '/>
+            </Link>
+            <div className=' text-center xl:w-2/5 xl:px-8 xl:py-5 ' >
+            <Link href='https://github.com/SanBran/foods-front' target='_blank'>
+            <h1 className={` ${montserrat.className} xl:text-2xl sm:text-lg xl:mb-5 text-indigo-700`}>FOOD</h1>
+            </Link>
+            <p className=' text-slate-500 lg:text-lg sm:text-sm'>A website designed to store and create cooking recipes. On it, you can
+            sign up, search for recipes, filter and sort them, as well as create your own recipes and publish them, </p>
+            <div className='flex justify-around px-10 mt-5' >
+              <Image src={html} alt="html" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+              <Image src={css} alt="css" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+              <Image src={ts} alt="js" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+              <Image src={next} alt="react" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+              <Image src={redux} alt="redux" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+            </div>
+            <div className='flex justify-around px-10 mt-1' >
+              <Image src={node} alt="node" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+              <Image src={corel} alt="corel" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+              <Image src={express} alt="express" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+              <Image src={sequelize} alt="sequielize" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+              <Image src={postgres} alt="postgres" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+            </div>
+            <div className='flex justify-center mt-8 mb-5 gap-5'>
+            <Link href='https://github.com/SanBran/foods-front' target="_blank" className='hover:scale-110 flex gap-1 text-lg'>
+              Code
+              <BiLogoGithub className= ' text-3xl' /> 
+              </Link>
+            
+            </div>
+            </div>
+            
+        </div>
+        <div className=" align-middle flex xl:flex-row-reverse sm:flex-col lg:gap-5 sm:gap-2 bg-white shadow-xl m-auto lg:p-5 sm:p-3 lg:w-8/12 sm:w-5/6 h-fit rounded-lg ">
         <Link href='https://countries-client-rho.vercel.app/' target='_blank' className='xl:w-3/5  sm:h-full sm:mb-4 rounded-lg '>
             <Image src={countries} alt='bookstore' className=' rounded-lg  '/>
             </Link>
@@ -107,40 +179,7 @@ function Projects() {
             </div>
             
         </div>
-        <div className=" align-middle flex xl:flex-row sm:flex-col lg:gap-5 sm:gap-2 bg-white shadow-xl m-auto lg:p-5 sm:p-3 lg:w-8/12 sm:w-5/6 h-fit rounded-lg ">
-            <Link href='https://github.com/SanBran/foods-front' target='_blank' className='xl:w-3/5  sm:h-full sm:mb-4 rounded-lg '>
-            <Image src={foods} alt='bookstore' className=' rounded-lg  '/>
-            </Link>
-            <div className=' text-center xl:w-2/5 xl:px-8 xl:py-5 ' >
-            <Link href='https://github.com/SanBran/foods-front' target='_blank'>
-            <h1 className={` ${montserrat.className} xl:text-2xl sm:text-lg xl:mb-5 text-indigo-700`}>FOOD</h1>
-            </Link>
-            <p className=' text-slate-500 lg:text-lg sm:text-sm'>A website designed to store and create cooking recipes. On it, you can
-            sign up, search for recipes, filter and sort them, as well as create your own recipes and publish them, </p>
-            <div className='flex justify-around px-10 mt-5' >
-              <Image src={html} alt="html" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
-              <Image src={css} alt="css" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
-              <Image src={ts} alt="js" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
-              <Image src={next} alt="react" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
-              <Image src={redux} alt="redux" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
-            </div>
-            <div className='flex justify-around px-10 mt-1' >
-              <Image src={node} alt="node" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
-              <Image src={corel} alt="corel" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
-              <Image src={express} alt="express" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
-              <Image src={sequelize} alt="sequielize" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
-              <Image src={postgres} alt="postgres" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
-            </div>
-            <div className='flex justify-center mt-8 mb-5 gap-5'>
-            <Link href='https://github.com/SanBran/foods-front' target="_blank" className='hover:scale-110 flex gap-1 text-lg'>
-              Code
-              <BiLogoGithub className= ' text-3xl' /> 
-              </Link>
-            
-            </div>
-            </div>
-            
-        </div>
+        
       
     </div>
   )
