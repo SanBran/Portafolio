@@ -15,7 +15,8 @@ import redux from '@/sources/redux.png'
 import express from '@/sources/express.png'
 import tail from '@/sources/tailwind.png'
 import sequelize from '@/sources/sequelize.png'
-import postgres from '@/sources/postgres.png'
+import vue from '@/sources/vue.png'
+
 
 
 const montserrat = Montserrat({
@@ -53,18 +54,20 @@ function About() {
               <Image src={rct} alt="react" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
             </div>
             <div className='flex justify-evenly gap-2'>
-            <Image src={next} alt="next" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
-            <Image src={tail} alt="tailwind" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
+              <Image src={next} alt="next" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
+              <Image src={vue} alt="next" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>              
+              <Image src={tail} alt="tailwind" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
               <Image src={figma} alt="figma" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
               <Image src={photo} alt="photoshop" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
-              <Image src={corel} alt="corel" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
+              
             </div>
             <div className='flex justify-evenly gap-1'>
+              <Image src={corel} alt="corel" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
               <Image src={node} alt="node" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
               <Image src={redux} alt="redux" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>             
               <Image src={express} alt="express" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
               <Image src={sequelize} alt="sequelize" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
-              <Image src={postgres} alt="corel" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
+              
             </div>
               
          
