@@ -17,10 +17,14 @@ import corel from '@/sources/corel.png'
 import express from '@/sources/express.png'
 import sequelize from '@/sources/sequelize.png'
 import postgres from '@/sources/postgres.png'
-import bookstore from '@/sources/BookStore.png'
+// import bookstore from '@/sources/BookStore.png'
+import aeromexico from '@/sources/aeromexico.gif'
 import countries from '@/sources/countries.png'
 import foods from '@/sources/FOOD.png'
-import rnm from '@/sources/RnM.png'
+import rnm from '@/sources/RnM.gif'
+import vue from '@/sources/vue.png'
+import laravel from '@/sources/laravel.png'
+import php from '@/sources/php.png'
 
 const montserrat = Montserrat({
     subsets: ["latin"],
@@ -36,7 +40,8 @@ function Projects() {
   return (
     <div className="flex flex-col gap-10 w-screen text-center lg:pb-40 sm:py-20">
       <h1 className={` ${montserrat.className} lg:text-2xl sm:text-lg text-indigo-700`}>PROJECTS</h1>
-        <div className=" align-middle flex xl:flex-row sm:flex-col lg:gap-5 sm:gap-2 bg-white shadow-xl m-auto lg:p-5 sm:p-3 lg:w-8/12 sm:w-5/6 h-fit rounded-lg ">
+
+        {/* <div className=" align-middle flex xl:flex-row sm:flex-col lg:gap-5 sm:gap-2 bg-white shadow-xl m-auto lg:p-5 sm:p-3 lg:w-8/12 sm:w-5/6 h-fit rounded-lg ">
             <Link href='https://book-store-client-coral.vercel.app/' target='_blank' className='xl:w-3/5  sm:h-full sm:mb-4 rounded-lg '>
             <Image src={bookstore} alt='bookstore' className=' rounded-lg  '/>
             </Link>
@@ -68,9 +73,34 @@ function Projects() {
             </div>
             </div>
             
+        </div> */}
+        <div className=" align-middle flex xl:flex-row sm:flex-col lg:gap-5 sm:gap-2 bg-white shadow-xl m-auto lg:p-5 sm:p-3 lg:w-8/12 sm:w-5/6 h-fit rounded-lg items-center">
+            <Link href='https://www.aeromexicobusiness.com/' target='_blank' className='xl:w-3/5  sm:h-full sm:mb-4 rounded-lg '>
+            <Image src={aeromexico} alt='aeromexico' className=' rounded-lg  '/>
+            </Link>
+            <div className=' text-center xl:w-2/5 xl:px-8 xl:py-5 ' >
+              <Link href='https://www.aeromexicobusiness.com/' target='_blank'>
+            <h1 className={` ${montserrat.className} xl:text-2xl sm:text-lg xl:mb-5 text-indigo-700`}>Aeromexico Business</h1>
+              </Link>
+            <p className=' text-slate-500 lg:text-lg sm:text-sm'>Aeroméxico Business is a dedicated platform designed to facilitate collaboration between Aeroméxico and travel agencies. It offers tools and resources that simplify reservation management while providing real-time access to policies, flight statuses, and service details.</p>
+            <div className='flex justify-around px-10 mt-5' >
+              <Image src={html} alt="html" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+              <Image src={css} alt="css" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+              <Image src={js} alt="js" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+              <Image src={php} alt="react" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+              <Image src={vue} alt="figma" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+              <Image src={laravel} alt="node" className=' xl:w-[10%] md:w-[5%] sm:w-[10%] hover:scale-110'/>
+            </div>
+            <div className='flex justify-center mt-8 mb-5 gap-5'>
+            <Link href='https://www.aeromexicobusiness.com/' target="_blank" className='hover:scale-110 flex gap-1 text-lg'>
+              Demo
+              <AiOutlineGlobal className= ' text-3xl' /> 
+              </Link>
+            </div>
+            </div>
+            
         </div>
-
-        <div className=" align-middle flex xl:flex-row-reverse sm:flex-col lg:gap-5 sm:gap-2 bg-white shadow-xl m-auto lg:p-5 sm:p-3 lg:w-8/12 sm:w-5/6 h-fit rounded-lg ">
+        <div className=" align-middle flex xl:flex-row-reverse sm:flex-col lg:gap-5 sm:gap-2 bg-white shadow-xl m-auto lg:p-5 sm:p-3 lg:w-8/12 sm:w-5/6 h-fit rounded-lg items-center">
         <Link href='https://rickandmorty-sanbran.vercel.app/about' target='_blank' className='xl:w-3/5  sm:h-full sm:mb-4 rounded-lg '>
             <Image src={rnm} alt='rnm' className=' rounded-lg  '/>
             </Link>

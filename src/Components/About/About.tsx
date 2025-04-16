@@ -4,12 +4,12 @@ import Image from 'next/image';
 import html from '@/sources/icons8-html-5-144.png'
 import css from '@/sources/icons8-css-144.png'
 import js from '@/sources/icons8-javascript-144.png'
-import ts from '@/sources/icons8-typescript-144.png'
+import php from '@/sources/php.png'
 import rct from '@/sources/icons8-react-native-256.png'
 import next from '@/sources/nextBlack.png'
 import node from '@/sources/node.png'
 import figma from '@/sources/figma.png'
-import photo from '@/sources/photoshop.png'
+import laravel from '@/sources/laravel.png'
 import corel from '@/sources/corel.png'
 import redux from '@/sources/redux.png'
 import express from '@/sources/express.png'
@@ -50,23 +50,20 @@ function About() {
               <Image src={html} alt="html" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
               <Image src={css} alt="css" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
               <Image src={js} alt="css" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
-              <Image src={ts} alt="ts" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
-              <Image src={rct} alt="react" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
+              <Image src={php} alt="next" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>       
             </div>
             <div className='flex justify-evenly gap-2'>
+              <Image src={vue} alt="next" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>       
+              <Image src={rct} alt="react" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
               <Image src={next} alt="next" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
-              <Image src={vue} alt="next" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>              
               <Image src={tail} alt="tailwind" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
-              <Image src={figma} alt="figma" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
-              <Image src={photo} alt="photoshop" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
               
             </div>
             <div className='flex justify-evenly gap-1'>
-              <Image src={corel} alt="corel" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
+              <Image src={figma} alt="figma" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
+              <Image src={laravel} alt="redux" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>             
               <Image src={node} alt="node" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
-              <Image src={redux} alt="redux" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>             
               <Image src={express} alt="express" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
-              <Image src={sequelize} alt="sequelize" className=' lg:w-[10%] sm:w-[12%] hover:scale-110'/>
               
             </div>
               
